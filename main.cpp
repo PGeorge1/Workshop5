@@ -50,8 +50,25 @@ void ex5 ()
     std::cout << k << std::endl;
 }
 
+void ex6 ()
+{
+    char A = 'A', b = 'b', d = '5', s = ' ';
+    std::cout << isspace(s) << std::endl;
+    std::cout << isdigit(d) << std::endl;
+    std::cout << isalpha(A) << std::endl;
+    std::cout << isupper(A) << std::endl;
+    std::cout << islower(b) << std::endl;
+    std::cout << std::stoi("123") << std::endl;
+    // naive digit conversion
+    std::cout << '9' - '0' << std::endl;
+    char line_break = '\n';
+    std::cout << isspace(line_break) << std::endl;
+
+
+}
+
 int main ()
 {
-    ex1();
+    ex6();
 }
 
